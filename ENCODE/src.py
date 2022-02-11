@@ -1,5 +1,4 @@
 import random
-from tkinter import E
 import pymongo
 import certifi
 ca = certifi.where()
