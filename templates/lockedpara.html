@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Para Locker</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="/static/images/icons/favicon.ico" />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="/static/vendor/bootstrap/css/bootstrap.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="/static/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="/static/vendor/animate/animate.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="/static/vendor/css-hamburgers/hamburgers.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="/static/css/util.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/main.css">
+    <!--===============================================================================================-->
+</head>
+
+<body>
+    <div class="bg-contact3" style="background-image: url('/static/images/bg-01.jpg');">
+        <div class="container-contact3">
+            <form action={{unlock}}>
+                <div class="wrap-contact3">
+                    <h6 class="header1">Paragraph</h6>
+                    <div class="lockedpara validate-input">
+                        <p class="loackedpara-text">
+                            {{message}}
+                        </p>
+                        <br>
+                        <p class="lockedpara-hints">
+                            Hint : {{hints}}
+                        </p>
+                    </div>
+                    <div class="wrap-input3 validate-input" data-validate="Password is required.">
+                        <input class="input3" id="password" type="text" name="password" placeholder="Password">
+                        <span class="focus-input3"></span>
+                    </div>
+                    <div class="container-contact3-form-btn">
+                        <button class="contact3-form-btn">
+                            Unlock
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+</body>
+
+</html>
