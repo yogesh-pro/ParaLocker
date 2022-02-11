@@ -130,7 +130,7 @@ STATICFILES_DIRS = [
     BASE_DIR / "static",
 ]
 
-STATIC_ROOT = "/var/www/paralocker.herokuapp.com/static/
+STATIC_ROOT = "/var/www/paralocker.herokuapp.com/static/"
 
 WHITENOISE_USE_FINDERS = True
 
