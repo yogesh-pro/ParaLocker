@@ -1,9 +1,15 @@
 asgiref==3.5.0
+Brotli==1.1.0
 certifi==2021.10.8
-Django
+click==8.1.7
+cramjam==2.8.3
+Django==4.0.10
 dnspython==2.2.0
 gunicorn==20.1.0
+h11==0.14.0
 pymongo==4.0.1
-python-snappy==0.6.0
+python-snappy==0.7.2
+setuptools==72.1.0
 sqlparse==0.4.2
+uvicorn==0.32.0
 whitenoise==6.0.0
