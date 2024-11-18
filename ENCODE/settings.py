@@ -131,6 +131,9 @@ STATICFILES_DIRS = [
 ]
 
 # STATIC_ROOT = "/var/www/paralocker.herokuapp.com/static/"
+# settings.py
+
+WHITENOISE_SKIP_MISSING_FILES = True
 
 WHITENOISE_USE_FINDERS = True
 
