@@ -1,0 +1,15 @@
+
+
+.para_input{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+
+.wrap-input1 {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  margin-bottom: 20px;
+}
