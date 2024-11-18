@@ -31,7 +31,6 @@ ALLOWED_HOSTS = ['127.0.0.1', '.herokuapp.com','localhost']
 # Application definition
 
 INSTALLED_APPS = [
-    'whitenoise.runserver_nostatic',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -131,11 +130,11 @@ STATICFILES_DIRS = [
     BASE_DIR / "static",
 ]
 
-STATIC_ROOT = "/var/www/paralocker.herokuapp.com/static/"
+# STATIC_ROOT = "/var/www/paralocker.herokuapp.com/static/"
 
 WHITENOISE_USE_FINDERS = True
 
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 STATIC_URL = '/static/'
 
